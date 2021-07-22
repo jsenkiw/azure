@@ -1,0 +1,5 @@
+#!/bin/bash
+#
+# List Resource Groups within default subscription
+#
+az group list --output yaml
