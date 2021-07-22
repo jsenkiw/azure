@@ -1,2 +1,0 @@
-# List Resource Groups
-az group list --output yaml
