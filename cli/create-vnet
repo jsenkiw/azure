@@ -1,0 +1,11 @@
+#!/bin/bash
+#
+# Create vnet + subnet
+#
+az network vnet create \
+  --resource-group test-rg \
+  --location ukwest
+  --name primary-ukwest-vnet \
+  --address-prefixes 172.16.0.0/16 \
+  --subnet-name ukwest-web-snet \
+  --subnet-prefixes 172.16.1.0/24
