@@ -1,0 +1,4 @@
+# Find Tenant (Directory) and Subscription Information
+az login		
+az account list	
+az account tenant list
